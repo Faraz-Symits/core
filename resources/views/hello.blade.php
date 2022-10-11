@@ -11,8 +11,9 @@
     <title>Hello World</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="../core/assets/css/style.css">
-    <script src="{{ asset('/core/assets/js/script.js')}}"></script>
+    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+    <script src="{{ asset('assets/js/script.js')}}">
+    </script>
 </head>
 
 <body>
@@ -21,6 +22,7 @@
         <![endif]-->
     <header>
         <h1><a href="{{ url('/') }}">Hello World</a></h1>
+        <p>Let's Do It!</p>
     </header>
     <button onclick=" helloworld();">Click Me</button>
 </body>
