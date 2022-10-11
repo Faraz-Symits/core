@@ -1,0 +1,4 @@
+Site Title:
+Username:
+Password:
+Email:
