@@ -12,15 +12,17 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../core/assets/css/style.css">
-    <script src="../core/assets/js/script.js"></script>
+    <script src="{{ asset('/core/assets/js/script.js')}}"></script>
 </head>
 
 <body>
     <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-
-    <button onclick="helloworld();">Click Me</button>
+    <header>
+        <h1><a href="{{ url('/') }}">Hello World</a></h1>
+    </header>
+    <button onclick=" helloworld();">Click Me</button>
 </body>
 
 </html>
