@@ -1,8 +1,9 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\Wellcome;
+use App\Http\Controllers\Login;
 use App\Http\Controllers\SignUp;
+use App\Http\Controllers\Wellcome;
+use Illuminate\Support\Facades\Route;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,3 +18,4 @@ use App\Http\Controllers\SignUp;
 
 Route::get('/', [Wellcome::class, 'index']);
 Route::get('/sign', [SignUp::class, 'index']);
+Route::get('/login', [Login::class, 'index']);
