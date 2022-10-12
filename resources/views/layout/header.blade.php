@@ -28,7 +28,7 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="{{ url('/sign')}}">Sign Up</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#!">Log In</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{ url('/login') }}">Log In</a></li>
                 </ul>
             </div>
         </div>
